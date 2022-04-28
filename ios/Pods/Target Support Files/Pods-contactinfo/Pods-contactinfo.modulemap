@@ -1,0 +1,6 @@
+module Pods_contactinfo {
+  umbrella header "Pods-contactinfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

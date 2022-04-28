@@ -1,0 +1,14 @@
+com/contactinfo/MainApplication.java
+ com.contactinfo.MainApplication
+ com.contactinfo.MainApplication$1
+com/contactinfo/ReactNativeFlipper.java
+ com.contactinfo.ReactNativeFlipper
+ com.contactinfo.ReactNativeFlipper$1
+ com.contactinfo.ReactNativeFlipper$2
+ com.contactinfo.ReactNativeFlipper$2$1
+com/contactinfo/BuildConfig.java
+ com.contactinfo.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/contactinfo/MainActivity.java
+ com.contactinfo.MainActivity

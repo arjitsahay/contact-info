@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.contactinfo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:5:3-75
+11-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:5:20-73
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/arjitsahay/contact-info/android/app/src/debug/AndroidManifest.xml:5:5-64
+12-->/Users/arjitsahay/contact-info/android/app/src/debug/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:9:3-78
+13-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:9:20-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:3:3-64
+14-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:3:20-62
+15    <uses-permission android:name="android.permission.VIBRATE" /> <!-- These require runtime permissions on M -->
+15-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:6:3-63
+15-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:6:20-61
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- END OPTIONAL PERMISSIONS -->
+16-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:8:3-77
+16-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:8:20-75
+17    <queries>
+17-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:12:3-19:13
+18
+19        <!-- Support checking for http(s) links via the Linking API -->
+20        <intent>
+20-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:14:5-18:14
+21            <action android:name="android.intent.action.VIEW" />
+21-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:15:7-59
+21-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:15:15-56
+22
+23            <category android:name="android.intent.category.BROWSABLE" />
+23-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:16:7-68
+23-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:16:17-65
+24
+25            <data android:scheme="https" />
+25-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:17:7-38
+25-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:17:13-35
+26        </intent>
+27        <!-- Query open documents -->
+28        <intent>
+28-->[:expo-file-system] /Users/arjitsahay/contact-info/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-21:18
+29            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+29-->[:expo-file-system] /Users/arjitsahay/contact-info/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-79
+29-->[:expo-file-system] /Users/arjitsahay/contact-info/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:21-76
+30        </intent>
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->[com.facebook.flipper:flipper:0.54.0] /Users/arjitsahay/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+33-->[com.facebook.flipper:flipper:0.54.0] /Users/arjitsahay/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+34    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+34-->[com.android.installreferrer:installreferrer:1.0] /Users/arjitsahay/.gradle/caches/transforms-3/8a9a2adb232a8cd9866595492edb9adc/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+34-->[com.android.installreferrer:installreferrer:1.0] /Users/arjitsahay/.gradle/caches/transforms-3/8a9a2adb232a8cd9866595492edb9adc/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+35
+36    <application
+36-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:21:3-31:17
+37        android:name="com.contactinfo.MainApplication"
+37-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:21:16-47
+38        android:allowBackup="false"
+38-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:21:162-189
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.5.0] /Users/arjitsahay/.gradle/caches/transforms-3/2867a6f606c8739a1dbab13656209b1f/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:21:81-115
+42        android:label="@string/app_name"
+42-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:21:48-80
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:21:116-161
+44        android:theme="@style/AppTheme"
+44-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:21:190-221
+45        android:usesCleartextTraffic="true" >
+45-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:21:222-257
+46        <meta-data
+46-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:22:5-103
+47            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+47-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:22:16-67
+48            android:value="YOUR-APP-URL-HERE" />
+48-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:22:68-101
+49        <meta-data
+49-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:23:5-112
+50            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+50-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:23:16-68
+51            android:value="YOUR-APP-SDK-VERSION-HERE" />
+51-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:23:69-110
+52
+53        <activity
+53-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:24:5-29:16
+54            android:name="com.contactinfo.MainActivity"
+54-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:24:15-43
+55            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+55-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:24:77-154
+56            android:label="@string/app_name"
+56-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:24:44-76
+57            android:launchMode="singleTask"
+57-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:24:155-186
+58            android:theme="@style/Theme.App.SplashScreen"
+58-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:24:230-275
+59            android:windowSoftInputMode="adjustResize" >
+59-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:24:187-229
+60            <intent-filter>
+60-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:25:7-28:23
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:26:9-60
+61-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:26:17-58
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:27:9-68
+63-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:27:19-66
+64            </intent-filter>
+65        </activity>
+66        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+66-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:30:5-81
+66-->/Users/arjitsahay/contact-info/android/app/src/main/AndroidManifest.xml:30:15-79
+67
+68        <provider
+68-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+69            android:name="com.imagepicker.ImagePickerProvider"
+69-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+70            android:authorities="com.contactinfo.imagepickerprovider"
+70-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+71            android:exported="false"
+71-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+72            android:grantUriPermissions="true" >
+72-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+73            <meta-data
+73-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+75                android:resource="@xml/imagepicker_provider_paths" />
+75-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+76        </provider>
+77        <provider
+77-->[:expo-file-system] /Users/arjitsahay/contact-info/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-34:20
+78            android:name="expo.modules.filesystem.FileSystemFileProvider"
+78-->[:expo-file-system] /Users/arjitsahay/contact-info/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-74
+79            android:authorities="com.contactinfo.FileSystemFileProvider"
+79-->[:expo-file-system] /Users/arjitsahay/contact-info/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-74
+80            android:exported="false"
+80-->[:expo-file-system] /Users/arjitsahay/contact-info/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-37
+81            android:grantUriPermissions="true" >
+81-->[:expo-file-system] /Users/arjitsahay/contact-info/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-47
+82            <meta-data
+82-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+84                android:resource="@xml/file_system_provider_paths" />
+84-->[:react-native-image-picker] /Users/arjitsahay/contact-info/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+85        </provider>
+86
+87        <meta-data
+87-->[:expo-modules-core] /Users/arjitsahay/contact-info/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:89
+88            android:name="org.unimodules.core.AppLoader#react-native-headless"
+88-->[:expo-modules-core] /Users/arjitsahay/contact-info/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+89            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+89-->[:expo-modules-core] /Users/arjitsahay/contact-info/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-86
+90    </application>
+91
+92</manifest>

@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "contact-info",
+    "slug": "contact-info",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "contact-info"
+}
